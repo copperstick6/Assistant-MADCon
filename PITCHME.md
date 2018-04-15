@@ -2,7 +2,7 @@
 
 ## Voice Assistant  
 ### A new user experience  
-Feel free to follow along: [https://www.gitpitch.com/copperstick6/Assistant-MADCon](https://gitpitch.com/copperstick6/Assistant-MADCon)
+Feel free to follow along: [https://bit.ly/2qxZI7s](https://gitpitch.com/copperstick6/Assistant-MADCon)
 ---
 
 ## What we're going to talk about today
@@ -55,3 +55,6 @@ chmod ugo+x ngrok
 ```
 @[1](Giving ngrok executable permissions)
 @[2](Functions-emulator runs on port 8000, so ngrok will auto redirect any request to that port)
+---
+#### If you missed any of this, check out my slides:  [https://bit.ly/2qxZI7](https://bit.ly/2qxZI7s). All of this stuff is there.
+---
