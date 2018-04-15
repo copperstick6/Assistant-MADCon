@@ -2,7 +2,7 @@
 
 ## Voice Assistant  
 ### A new user experience  
-
+Feel free to follow along: [https://www.gitpitch.com/copperstick6/Assistant-MADCon](https://gitpitch.com/copperstick6/Assistant-MADCon)
 ---
 
 ## What we're going to talk about today
@@ -17,6 +17,7 @@
 ---
 
 ## Before we start.
+##### This is for the demo. If you don't want to do the demo, ignore this stuff.
 Install Node.js and functions-emulator.  
 ---
 
@@ -48,10 +49,9 @@ npm install -g @google-cloud/functions-emulator
 ## Install Ngrok
 Ngrok is a really cool tool that will allow your app to be deployed locally so that your Google Assistant can communicate with your code.  
 Download it from [ngrok.com](https://ngrok.com/).
-Make sure to give it executable permissions
 ```
 chmod ugo+x ngrok
 ./ngrok http 8080
 ```
-@[1] Giving ngrok proper permissions
-@[2] Functions-emulator runs on port 8000, so ngrok will auto redirect any request to that port
+@[1](Giving ngrok executable permissions)
+@[2](Functions-emulator runs on port 8000, so ngrok will auto redirect any request to that port)
