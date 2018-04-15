@@ -33,9 +33,9 @@ brew install nodejs
 npm -v
 npm install -g @google-cloud/functions-emulator
 ```
-@[1]
-@[2]
-@[3]
+@[1] This installs Node.js
+@[2] Let's check to see if installation was successful
+@[3] This installs a package called functions-emulator we'll use to deploy our stuff.
 ---
 ## Windows Installation
 Go to [nodejs.org](https://nodejs.org/en/) and install Node.js  
@@ -45,3 +45,13 @@ npm -v
 npm install -g @google-cloud/functions-emulator
 ```
 ---
+## Install Ngrok
+Ngrok is a really cool tool that will allow your app to be deployed locally so that your Google Assistant can communicate with your code.  
+Download it from [ngrok.com](https://ngrok.com/).
+Make sure to give it executable permissions
+```
+chmod ugo+x ngrok
+./ngrok http 8080
+```
+@[1] Giving ngrok proper permissions
+@[2] Functions-emulator runs on port 8000, so ngrok will auto redirect any request to that port
