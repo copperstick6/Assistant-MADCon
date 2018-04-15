@@ -58,3 +58,12 @@ chmod ugo+x ngrok
 ---
 #### If you missed any of this, check out my slides:  [https://bit.ly/2qxZI7](https://bit.ly/2qxZI7s). All of this stuff is there.
 ---
+### Who am I?
+![Run 1](images/me.jpg){:height="600px" width="400px"}
+@ul
+- CS'19
+- Built 10+ Google Assistant, 5+ Alexa Apps
+- Passionate about Voice Assistants
+- Meme master
+@ulend
+---
