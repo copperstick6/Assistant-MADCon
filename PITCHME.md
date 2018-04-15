@@ -59,7 +59,7 @@ chmod ugo+x ngrok
 #### If you missed any of this, check out my slides:  [https://bit.ly/2qxZI7](https://bit.ly/2qxZI7s). All of this stuff is there.
 ---
 ### Who am I?
-![Run 1](https://raw.githubusercontent.com/copperstick6/Assistant-MADCon/master/images/me.jpg){:height="60px" width="30px"}
+![Me!](images/me.jpg)
 @ul
 - CS'19
 - Built 10+ Google Assistant, 5+ Alexa Apps
