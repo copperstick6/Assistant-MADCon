@@ -59,7 +59,7 @@ chmod ugo+x ngrok
 #### If you missed any of this, check out my slides:  [https://bit.ly/2qxZI7](https://bit.ly/2qxZI7s). All of this stuff is there.
 ---
 ### Who am I?
-![Run 1](images/me.jpg){:height="300px" width="200px"}
+---?image=images/me.jpg&size=30% 30%
 @ul
 - CS'19
 - Built 10+ Google Assistant, 5+ Alexa Apps
