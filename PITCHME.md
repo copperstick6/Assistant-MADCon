@@ -33,9 +33,9 @@ brew install nodejs
 npm -v
 npm install -g @google-cloud/functions-emulator
 ```
-@[1] This installs Node.js
-@[2] Let's check to see if installation was successful
-@[3] This installs a package called functions-emulator we'll use to deploy our stuff.
+@[1](This installs Node.js)
+@[2](Let's check to see if installation was successful)
+@[3](This installs a package called functions-emulator we'll use to deploy our stuff.)
 ---
 ## Windows Installation
 Go to [nodejs.org](https://nodejs.org/en/) and install Node.js  
