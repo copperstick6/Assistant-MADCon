@@ -19,6 +19,7 @@ Feel free to follow along: [https://bit.ly/2qxZI7s](https://gitpitch.com/coppers
 ## Before we start.
 ##### This is for the demo. If you don't want to do the demo, ignore this stuff.
 Install Node.js and functions-emulator.  
+Make sure to have a Google Account. (Everyone should have one)
 ---
 
 ## Mac OSX installation
@@ -59,7 +60,7 @@ chmod ugo+x ngrok
 #### If you missed any of this, check out my slides:  [https://bit.ly/2qxZI7](https://bit.ly/2qxZI7s). All of this stuff is there.
 ---
 ### Who am I?
-![Me!](images/me.jpg)
+![Me!](images/sanfran.jpg)
 @ul
 - CS'19
 - Built 10+ Google Assistant, 5+ Alexa Apps
@@ -67,3 +68,23 @@ chmod ugo+x ngrok
 - Meme master
 @ulend
 ---
+### Why Voice Assistants?
+@ul
+- It's cool.
+- It's flexible
+- It's a new
+@ulend
+---
+### History Lesson
+@ul
+- 1961- 2011 Crap ton of research (Voice Recognition)
+- 2011 Siri (Apple) Released
+- 2014 Amazon Echo Released
+- May 2016 Google Assistant Released
+- June 2016 Amazon Alexa Node SDK released
+- December 2017 Google Assistant Node SDK released
+@ulend
+---
+
+### Amazon Alexa
+![Video](https://www.youtube.com/watch?v=5DCK4pmSogE)
