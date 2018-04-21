@@ -71,8 +71,8 @@ chmod ugo+x ngrok
 ### Why Voice Assistants?
 @ul
 - It's cool.
-- It's flexible
-- It's easy to build interactive experiences
+- It's flexible.
+- It's easy to build interactive experiences.
 @ulend
 ---
 ### History Lesson
@@ -124,6 +124,8 @@ Personally have not messed with the Echo Show, but I'd like to
 - Siri sucks.  
 
 ---
+## Short Spiel on my view as a developer on Alexa vs Actions on Google
+---
 #### Now you know what these things do, let's go over how they usually work.  
 
 ---
@@ -161,3 +163,4 @@ Personally have not messed with the Echo Show, but I'd like to
 - Function returns some sort of string that is what should be said. It can also return how it should be said/pronounced
 - In Show/Assistant App, you can also force it to display something
 @olend
+---
