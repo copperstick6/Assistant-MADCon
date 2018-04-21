@@ -164,3 +164,7 @@ Personally have not messed with the Echo Show, but I'd like to
 - In Show/Assistant App, you can also force it to display something
 @olend
 ---
+# IT'S TIME TO
+![Duel](images/duel.jpeg)  
+---
+## No FFS. Demo time!
