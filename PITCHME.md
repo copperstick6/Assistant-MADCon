@@ -168,3 +168,6 @@ Personally have not messed with the Echo Show, but I'd like to
 ![Duel](images/duel.jpeg)  
 ---
 ## No FFS. Demo time!
+---
+### GET OVER TO MY GIT REPO
+[http://www.github.com/copperstick6/Assistant-MADCon](http://www.github.com/copperstick6/Assistant-MADCon)
