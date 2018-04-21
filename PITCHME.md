@@ -91,6 +91,8 @@ chmod ugo+x ngrok
 
 ### Amazon's Product offerings:
 ![Alexa](images/alexa.jpg)  
+
+
 Main ones are Echo and Echo Show  
 Personally have not messed with the Echo Show, but I'd like to
 ---
@@ -108,6 +110,8 @@ Personally have not messed with the Echo Show, but I'd like to
 ---
 ### Google Assistant
 ![Assistant](images/assistant.jpg)  
+---
+### Google Assistant continued
 @ul
 - Lots more flexibility with mobile devices  
 - You can display stuff, and interact with more data since Google saves everything
