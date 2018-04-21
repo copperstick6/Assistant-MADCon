@@ -114,7 +114,14 @@ Personally have not messed with the Echo Show, but I'd like to
 ### Google Assistant continued
 @ul
 - Lots more flexibility with mobile devices  
-- You can display stuff, and interact with more data since Google saves everything
+- You can display stuff!
 - Newer Community due to recently released SDK
 @ulend
+---
+### Apple Homepod
+- Personally don't know too much about Homepod
+- Uses SiriKit, so any apps you develop work on iOS phones
+- Siri sucks.
+---
+#### Now you know what these things do, let's go over how they usually work.
 ---
