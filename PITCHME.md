@@ -121,32 +121,37 @@ Personally have not messed with the Echo Show, but I'd like to
 ### Apple Homepod
 - Personally don't know too much about Homepod
 - Uses SiriKit, so any apps you develop work on iOS phones
-- Siri sucks.
+- Siri sucks.  
+
 ---
-#### Now you know what these things do, let's go over how they usually work.
+#### Now you know what these things do, let's go over how they usually work.  
+
 ---
 ### What the user sees
 @ul
-1. They say something
-2. It's processed
-3. Something is returned
+1. They say something  
+2. It's processed  
+3. Something is returned  
 @ulend
 ---
-#### What actually happens
+#### What actually happens  
+
 ---
 ### Saying something (Step 1)
-**Disclaimer** We don't actually know exactly how this happens. Every company does it differently. This is a guess.
+**Disclaimer** We don't actually know exactly how this happens. Every company does it differently. This is a guess.  
 @ul
-1. System records what the user says
-2. Speech recording is compressed and then sent off somewhere
-- We think this happens, because if you look at the Alexa app, you are able to access recordings of your commands.
-@ulend
+1. System records what the user says  
+2. Speech recording is compressed and then sent off somewhere  
+- We think this happens, because if you look at the Alexa app, you are able to access recordings of your commands.  
+@ulend  
+
 ---
 ### Voice Processing (Step 2)
 @ul
-1. TTS (Text to speech). This is already complicated.
+1. TTS (Text to speech). This is already complicated.  
 2. Context. Try to fit what the user has said to some sort of pre-defined expected value to call the appropriate function inside some app.
-@ulend
+@ulend  
+
 ---
 ### Returning something (Step 3)
 @ul
