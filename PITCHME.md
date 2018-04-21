@@ -72,7 +72,7 @@ chmod ugo+x ngrok
 @ul
 - It's cool.
 - It's flexible
-- It's a new
+- It's easy to build interactive experiences
 @ulend
 ---
 ### History Lesson
@@ -83,8 +83,34 @@ chmod ugo+x ngrok
 - May 2016 Google Assistant Released
 - June 2016 Amazon Alexa Node SDK released
 - December 2017 Google Assistant Node SDK released
+- January 2018 Homepod (Apple) Released
 @ulend
 ---
+## Voice Assistant Products
+---
 
-### Amazon Alexa
-![Video](https://www.youtube.com/watch?v=5DCK4pmSogE)
+### Amazon's Product offerings:
+![Alexa](images/alexa.jpg)  
+Main ones are Echo and Echo Show  
+Personally have not messed with the Echo Show, but I'd like to
+---
+
+### Amazon Alexa  
+
+![Video](https://www.youtube.com/embed/5DCK4pmSogE)
+---
+### Alexa Continued
+@ul
+- Heavy integration with AWS services. Easy deploy w/ Lambda
+- Developer Community is Poppin
+- Recently released a way to make money off Alexa apps should they gain a certain level of traction
+@ulend
+---
+### Google Assistant
+![Assistant](images/assistant.jpg)  
+@ul
+- Lots more flexibility with mobile devices  
+- You can display stuff, and interact with more data since Google saves everything
+- Newer Community due to recently released SDK
+@ulend
+---
