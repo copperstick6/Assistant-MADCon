@@ -129,9 +129,9 @@ Personally have not messed with the Echo Show, but I'd like to
 ---
 ### What the user sees
 @ol
-1. They say something  
-2. It's processed  
-3. Something is returned  
+- They say something  
+- It's processed  
+- Something is returned  
 @olend
 ---
 #### What actually happens  
@@ -140,8 +140,8 @@ Personally have not messed with the Echo Show, but I'd like to
 ### Saying something (Step 1)
 **Disclaimer** We don't actually know exactly how this happens. Every company does it differently. This is a guess.  
 @ol
-1. System records what the user says  
-2. Speech recording is compressed and then sent off somewhere  
+- System records what the user says  
+- Speech recording is compressed and then sent off somewhere  
 @olend  
 @ul
 - We think this happens, because if you look at the Alexa app, you are able to access recordings of your commands.  
@@ -150,14 +150,14 @@ Personally have not messed with the Echo Show, but I'd like to
 ---
 ### Voice Processing (Step 2)
 @ol
-1. TTS (Text to speech). This is already complicated.  
-2. Context. Try to fit what the user has said to some sort of pre-defined expected value to call the appropriate function inside some app.
+- TTS (Text to speech). This is already complicated.  
+- Context. Try to fit what the user has said to some sort of pre-defined expected value to call the appropriate function inside some app.
 @olend  
 
 ---
 ### Returning something (Step 3)
 @ol
-1. Function called, and some sort of string is returned by the app called
-2. Function returns some sort of string that is what should be said. It can also return how it should be said/pronounced
-3. In Show/Assistant App, you can also force it to display something
+- Function called, and some sort of string is returned by the app called
+- Function returns some sort of string that is what should be said. It can also return how it should be said/pronounced
+- In Show/Assistant App, you can also force it to display something
 @olend
