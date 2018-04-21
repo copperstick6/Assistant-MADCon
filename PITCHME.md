@@ -52,7 +52,7 @@ Ngrok is a really cool tool that will allow your app to be deployed locally so t
 Download it from [ngrok.com](https://ngrok.com/).
 ```
 chmod ugo+x ngrok
-./ngrok http 8080
+./ngrok http 8010
 ```
 @[1](Giving ngrok executable permissions)
 @[2](Functions-emulator runs on port 8000, so ngrok will auto redirect any request to that port)
@@ -140,7 +140,7 @@ Personally have not messed with the Echo Show, but I'd like to
 
 ---
 ### Saying something (Step 1)
-**Disclaimer** We don't actually know exactly how this happens. Every company does it differently. This is a guess.  
+**Disclaimer:* We don't actually know exactly how this happens. Every company does it differently. This is a guess.  
 @ol
 - System records what the user says  
 - Speech recording is compressed and then sent off somewhere  
@@ -152,7 +152,7 @@ Personally have not messed with the Echo Show, but I'd like to
 ---
 ### Voice Processing (Step 2)
 @ol
-- TTS (Text to speech). This is already complicated.  
+- TTS (Text to speech). This is complicated.  
 - Context. Try to fit what the user has said to some sort of pre-defined expected value to call the appropriate function inside some app.
 @olend  
 
@@ -169,5 +169,6 @@ Personally have not messed with the Echo Show, but I'd like to
 ---
 ## No FFS. Demo time!
 ---
-### GET OVER TO MY GIT REPO
+### GIT OVER TO MY GIT REPO  
+(Get it. Haha. I'll leave.)  
 [http://www.github.com/copperstick6/Assistant-MADCon](http://www.github.com/copperstick6/Assistant-MADCon)
