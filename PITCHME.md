@@ -26,7 +26,8 @@ Feel free to follow along: [https://bit.ly/2qxZI7s](https://gitpitch.com/coppers
 ## Before we start.
 ##### This is for the demo. If you don't want to do the demo, ignore this stuff.
 Install Node.js and functions-emulator.  
-Make sure to have a Google Account. (Everyone should have one)
+Make sure to have a Google Account. (Everyone should have one)  
+Make sure to enable GCP (Google Cloud Platform)
 ---
 
 ## Mac OSX installation
