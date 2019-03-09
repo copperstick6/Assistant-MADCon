@@ -4,6 +4,13 @@
 ### A new user experience  
 Feel free to follow along: [https://bit.ly/2qxZI7s](https://gitpitch.com/copperstick6/Assistant-MADCon)
 ---
+## Before the talk
+@ol
+- DISCLAIMER: IM NOT PUSHING ANY PRODUCTS HERE, JUST TELLING YOU GUYS MY THOUGHTS ON STUFF  
+- (a.k.a please don't email someone from amazon complaining how I didn't push alexa more)  
+- Also: if we have time, I'll explain how these band-aids got on my face.
+@olend
+---
 
 ## What we're going to talk about today
 ##### (what you'll leave this room with)
@@ -33,30 +40,21 @@ Install Homebrew if you don't have it
 ```
 brew install nodejs
 npm -v
-npm install -g @google-cloud/functions-emulator
+npm install -g firebase
 ```
 @[1](This installs Node.js)
 @[2](Let's check to see if installation was successful)
-@[3](This installs a package called functions-emulator we'll use to deploy our stuff.)
+@[3](This installs the firebase packages we'll use to deploy our stuff.)
 ---
 ## Windows Installation
 Go to [nodejs.org](https://nodejs.org/en/) and install Node.js  
 After installation completes, run the same commands:  
 ```
 npm -v
-npm install -g @google-cloud/functions-emulator
+npm install -g firebase
 ```
 ---
-## Install Ngrok
-Ngrok is a really cool tool that will allow your app to be deployed locally so that your Google Assistant can communicate with your code.  
-Download it from [ngrok.com](https://ngrok.com/).
-```
-chmod ugo+x ngrok
-./ngrok http 8010
-```
-@[1](Giving ngrok executable permissions)
-@[2](Functions-emulator runs on port 8000, so ngrok will auto redirect any request to that port)
----
+
 #### If you missed any of this, check out my slides:  [https://bit.ly/2qxZI7](https://bit.ly/2qxZI7s). All of this stuff is there.
 ---
 ### Who am I?
@@ -104,8 +102,8 @@ Personally have not messed with the Echo Show, but I'd like to
 ### Alexa Continued
 @ul
 - Heavy integration with AWS services. Easy deploy w/ Lambda
-- Developer Community is Poppin
-- Recently released a way to make money off Alexa apps should they gain a certain level of traction
+- Earliest developer community, lots of support
+- Released a way to make money off Alexa apps should they gain a certain level of traction
 @ulend
 ---
 ### Google Assistant
@@ -115,7 +113,7 @@ Personally have not messed with the Echo Show, but I'd like to
 @ul
 - Lots more flexibility with mobile devices  
 - You can display stuff!
-- Newer Community due to recently released SDK
+- Newer Community (came out later, SDK released later, lots of changes)
 @ulend
 ---
 ### Apple Homepod
@@ -123,8 +121,6 @@ Personally have not messed with the Echo Show, but I'd like to
 - Uses SiriKit, so any apps you develop work on iOS phones
 - Siri sucks.  
 
----
-## Short Spiel on my view as a developer on Alexa vs Actions on Google
 ---
 #### Now you know what these things do, let's go over how they usually work.  
 
@@ -152,7 +148,7 @@ Personally have not messed with the Echo Show, but I'd like to
 ---
 ### Voice Processing (Step 2)
 @ol
-- TTS (Text to speech). This is complicated.  
+- TTS (Text to speech). This is complicated NLP stuff.  
 - Context. Try to fit what the user has said to some sort of pre-defined expected value to call the appropriate function inside some app.
 @olend  
 
