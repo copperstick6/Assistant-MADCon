@@ -62,8 +62,8 @@ npm install -g firebase
 @ul
 - CS'19
 - Built 10+ Google Assistant, 5+ Alexa Apps
-- Passionate about Voice Assistants
-- Meme master
+- Sucks at cooking
+- Will Burn Face
 @ulend
 ---
 ### Why Voice Assistants?
