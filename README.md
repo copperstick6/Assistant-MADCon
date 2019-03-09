@@ -1,10 +1,6 @@
 ## MADCon 2018 talk  
 To get started:   
-`npm install` to install dependencies     
-make sure functions-emulator is installed  
-`npm install -g functions-emulator`  
-`functions-emulator start`  
-`functions-emulator deploy silicon --trigger-http`  
-ngrok    
-`chmod ugo+x ngrok`   
-`./ngrok http 8010`
+`firebase init` and select functions with space and press enter. type N for all options  
+`firebase deploy --project ` with the project ID on Dialogflow    
+Upload the zip file to Dialogflow
+Get the link from firebases' functions and put it under Webhooks in dialogflow

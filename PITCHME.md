@@ -25,7 +25,7 @@ Feel free to follow along: [https://bit.ly/2qxZI7s](https://gitpitch.com/coppers
 
 ## Before we start.
 ##### This is for the demo. If you don't want to do the demo, ignore this stuff.
-Install Node.js and functions-emulator.  
+Install Node.js and firebase.  
 Make sure to have a Google Account. (Everyone should have one)  
 Make sure to enable GCP (Google Cloud Platform)
 ---
@@ -37,7 +37,7 @@ Install Homebrew if you don't have it
 ```
 (You can find this on [brew.sh](https://brew.sh/) if you don't feel like typing this out.)
 ---
-## Installing Node and Functions-emulator
+## Installing Node and Firebase  
 ```
 brew install nodejs
 npm -v
