@@ -5,11 +5,11 @@
 Feel free to follow along: [https://bit.ly/2qxZI7s](https://gitpitch.com/copperstick6/Assistant-MADCon)
 ---
 ## Before the talk
-@ol
+@ul
 - DISCLAIMER: IM NOT PUSHING ANY PRODUCTS HERE, JUST TELLING YOU GUYS MY THOUGHTS ON STUFF  
 - (a.k.a please don't email someone from amazon complaining how I didn't push alexa more)  
 - Also: if we have time, I'll explain how these band-aids got on my face.
-@olend
+@ulend
 ---
 
 ## What we're going to talk about today
